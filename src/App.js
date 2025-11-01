@@ -61,7 +61,7 @@ function App() {
         <div className="intro fadeIn">
           <h1 id="Suprise">🎈 Click Below for a Surprise! 🎈</h1>
           <button className="surprise-btn" onClick={handleClick}>
-            Show Surprise 🎉
+            Click Me! 🎉
           </button>
         </div>
       ) : (
