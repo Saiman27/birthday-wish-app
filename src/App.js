@@ -15,7 +15,6 @@ function App() {
 
   // 🎞️ Image list for slideshow
   const images = [
-    require("./assets/pic1.jpeg"),
     require("./assets/pic2.jpeg"),
     require("./assets/pic3.jpeg"),
     require("./assets/pic2.jpeg"),
