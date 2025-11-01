@@ -1,0 +1,48 @@
+.balloons-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.balloon {
+  position: absolute;
+  bottom: -150px;
+  width: 80px;
+  height: 100px;
+  border-radius: 50%;
+  animation: float 12s linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(20px, -25vh) scale(1.05);
+  }
+  50% {
+    transform: translate(-15px, -55vh) scale(1.1);
+  }
+  75% {
+    transform: translate(25px, -85vh) scale(1.1);
+  }
+  100% {
+    transform: translate(-10px, -110vh) scale(1.05);
+  }
+}
+
+
+/* Different colors and positions */
+.balloon-1 { left: 5%; background: #ff6666; animation-delay: 0s; }
+.balloon-2 { left: 15%; background: #ffcc66; animation-delay: 2s; }
+.balloon-3 { left: 30%; background: #66ccff; animation-delay: 4s; }
+.balloon-4 { left: 45%; background: #99ff99; animation-delay: 1s; }
+.balloon-5 { left: 60%; background: #ff99cc; animation-delay: 3s; }
+.balloon-6 { left: 75%; background: #cc99ff; animation-delay: 5s; }
+.balloon-7 { left: 85%; background: #ffb347; animation-delay: 6s; }
+.balloon-8 { left: 95%; background: #c2f0c2; animation-delay: 7s; }
